@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박물관 코드</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/jquery.fullpage.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/jquery.fullpage.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="h_inner">
+            <h1><a href=""><img src="./images/logo.png" alt=""></a></h1>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="">관람안내</a></li>
+                    <li><a href="">전시</a></li>
+                    <li><a href="">소식ㆍ참여</a></li>
+                    <li><a href="">교육ㆍ행사</a></li>
+                    <li><a href="">소장품ㆍ학술ㆍ출판</a></li>
+                    <li><a href="">박물관소개</a></li>
+                </ul>
+            </nav>
+            <div class="utils">
+                <ul>
+                    <li class="login"><a href="">로그인</a></li>
+                    <li class="lang"><a href="">Language</a></li>
+                    <li class="search"><button>검색</button></li>
+                    <li class="menu"><a href="">메뉴</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main id="mainFull">
+        <section id="mainVisaul" class="section">
+            <div class="swiper mainVisualSlide">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide itm itm01">
+                        <div class="slg">
+                            <p>국립 김해 박물관 상설전시</p>
+                            <strong>세계유산가야</strong>
+                            <em>GIMHAE NATIONAL MUSEUM</em>
+                        </div>
+                    </div>
+                    <div class="swiper-slide itm itm02">
+                        <div class="slg">
+                            <p>국립 김해 박물관 상설전시</p>
+                            <strong>세계유산가야</strong>
+                            <em>GIMHAE NATIONAL MUSEUM</em>
+                        </div>
+                    </div>
+                    <div class="swiper-slide itm itm03">
+                        <div class="slg">
+                            <p>국립 김해 박물관 상설전시</p>
+                            <strong>세계유산가야</strong>
+                            <em>GIMHAE NATIONAL MUSEUM</em>
+                        </div>
+                    </div>
+                    <div class="swiper-slide itm itm04">
+                        <div class="slg">
+                            <p>국립 김해 박물관 상설전시</p>
+                            <strong>세계유산가야</strong>
+                            <em>GIMHAE NATIONAL MUSEUM</em>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <button class="prev">
+                        prev
+                    </button>
+                    <button class="pause">play</button>
+                    <button class="next">
+                        next
+                    </button>
+                </div>
+                <div class="dots"></div>
+            </div>
+            <a href="#02" class="scrollDown">
+                <p>scroll</p>
+                <div class="circle"></div>
+            </a>
+        </section>
+        <section id="mainExhibition" class="section">
+            <h2 class="blind">전시안내</h2>
+            <div class="tit">
+                <h3>전시안내</h3>
+            </div>
+            <div class="contents">
+                <div class="swiper ex_slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide itm">
+                            <div class="text">
+                                <p>DIGITAL SPACE</p>
+                                <strong>가야맞이방</strong>
+                                <a href="" class="btn">
+                                    <span>가야맞이방 자세히보기 </span>
+                                    <i class="xi-arrow-right"></i>
+                                </a>
+                            </div>
+                            <a href="" class="img_box">
+                                <img src="./images/main_exhibition/main_exhibition-01.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <div class="text">
+                                <p>permanent exhibition</p>
+                                <strong>상설전시</strong>
+                                <a href="" class="btn">
+                                    <span>상설전시 자세히보기 </span>
+                                    <i class="xi-arrow-right"></i>
+                                </a>
+                            </div>
+                            <a href="" class="img_box">
+                                <img src="./images/main_exhibition/main_exhibition-02.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <div class="text">
+                                <p>special exhibition</p>
+                                <strong>특별전시</strong>
+                                <a href="" class="btn">
+                                    <span>특별전시 자세히보기 </span>
+                                    <i class="xi-arrow-right"></i>
+                                </a>
+                            </div>
+                            <a href="" class="img_box">
+                                <img src="./images/main_exhibition/main_exhibition-03.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide itm">
+                            <div class="text">
+                                <p>thematic exhibition</p>
+                                <strong>테마전시</strong>
+                                <a href="" class="btn">
+                                    <span>테마전시 자세히보기 </span>
+                                    <i class="xi-arrow-right"></i>
+                                </a>
+                            </div>
+                            <a href="" class="img_box">
+                                <img src="./images/main_exhibition/main_exhibition-04.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="utils">
+                        <div class="arrows_02">
+                            <button class="prev">prev</button>
+                            <button class="controll"></button>
+                            <button class="next">next</button>
+                        </div>
+                        <div class="dots_02"></div>
+                        <div class="dots_03"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="mainEvent" class="section">
+            <h2 class="blind">행사,소식 안내</h2>
+            <div class="inner">
+                <div class="tit">
+                    <h3>행사</h3>
+                </div>
+                <div class="eventTap">
+                    <ul>
+                        <li class="on"><button>교육신청</button></li>
+                        <li><button>문화행사</button></li>
+                        <li><button>학술행사</button></li>
+                    </ul>
+                </div>
+                <div class="eventContents">
+                    <div class="swiper eventSlide01 on">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide itm">
+                                <img src="./images/main_event/e-slide-01.jpg" alt="">
+                                <div class="desc">
+                                    <strong>2024년 큐레이터와의 대화</strong>
+                                    <ul>
+                                        <li>교육일자<span> 2024-03-27~ 2024-12-18</span></li>
+                                        <li>교육장소<span>세미나실</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper-slide itm">
+                                <img src="./images/main_event/e-slide-02.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide itm">
+                                <img src="./images/main_event/e-slide-03.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper eventSlide02 ">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide itm">
+                                <img src="./images/main_event/m-slide-01.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide itm">
+                                <img src="./images/main_event/m-slide-02.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide itm">
+                                <img src="./images/main_event/m-slide-03.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper eventSlide03">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide itm">
+                                <img src="./images/main_event/e-slide-01.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide itm">
+                                <img src="./images/main_event/e-slide-02.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide itm">
+                                <img src="./images/main_event/e-slide-03.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

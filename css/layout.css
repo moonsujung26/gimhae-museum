@@ -1,0 +1,16 @@
+.inner {
+    max-width: 1410px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tit {
+    margin-bottom: 80px;
+}
+
+.tit h3 {
+    color: #333;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+}
